@@ -102,7 +102,7 @@ C = sortrows(C,17);
 
     Max_hk(m,2) = floor(C{m,19}(2)/3);
 
-    
+    Minimum_Amplitude(m) = min(C{m,4}(C{m,4}>0));
 end
 MinRes = min(min(Max_hk));
 MaxRes = min(MaxRes);
